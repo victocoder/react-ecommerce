@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Navbar = () => {
   return (
-    <div>Navbar</div>
+   <div>
+     <div  className='bg-violet-500'>Navbar</div>
+   </div>
   )
 }

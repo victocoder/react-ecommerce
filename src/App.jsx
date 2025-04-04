@@ -6,16 +6,18 @@ import { Navbar } from './components/Navbar'
 import Hero from './components/Hero'
 import Featured from './components/Featured'
 import LatestProduct from './components/LatestProduct'
+import WhatWeOffer from './components/WhatWeOffer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className=''>
        <Navbar />
        <Hero />
        <Featured />
        <LatestProduct />
+       <WhatWeOffer />
     </div>
   )
 }

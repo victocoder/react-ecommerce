@@ -6,6 +6,7 @@ export default {
       colors:{
         accent:['#FB2E86'],
         blue:['#151875'],
+        whitebg:['#F7F7F7'],
         "blue-2":["#2F1AC4"]
       },
       fontFamily:{

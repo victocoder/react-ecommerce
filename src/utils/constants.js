@@ -16,7 +16,35 @@ import latest4 from '../assets/img/latest/latest-product-4.png'
 import latest5 from '../assets/img/latest/latest-product-5.png'
 import latest6 from '../assets/img/latest/latest-product-6.png'
 
+import weoffer1 from '../assets/img/weoffer/we-offer-1.svg'
+import weoffer2 from '../assets/img/weoffer/we-offer-2.svg'
+import weoffer3 from '../assets/img/weoffer/we-offer-3.svg'
+import weoffer4 from '../assets/img/weoffer/we-offer-4.svg'
+
 export {heartIcon, cartIcon,featuredCart,featuredZoom,featuredHeart}
+
+export const weOffer =[
+    {
+      img: weoffer1,
+      title: "Delivery",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+    },
+    {
+        img: weoffer2,
+        title: "Cash Back",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      },
+      {
+        img: weoffer3,
+        title: "VIP Service",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      },
+      {
+        img: weoffer1,
+        title: "24/7 Support",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+      },
+]
 
 export const latestProduct =[
     {
@@ -61,7 +89,6 @@ export const latestProduct =[
         price:"450",
         discount: 10
     }
-
 
 ]
 

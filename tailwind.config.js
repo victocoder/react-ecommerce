@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors:{
-        accent:['#FB2E86']
+        accent:['#FB2E86'],
+        blue:['#151875'],
+        "blue-2":["#2F1AC4"]
       },
       fontFamily:{
         body:['Josefin sans'],
